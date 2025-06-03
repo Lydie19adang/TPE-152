@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu déroulant avec icône</title>
+  <link rel="stylesheet" href="https:                                                                           
+  <style>
+    .menu {
+      position: relative;                                                         
+    }
+
+    .menu-bouton {
+      background-color:                                         
+      color:                                       
+      padding: 10px 20px;                                   
+      border: none;                                    
+      cursor: pointer;                               
+    }
+
+    .menu-deroulant {
+      display: none;                                           
+      position: absolute;                                               
+      top: 100%;                                                         
+      left: 0;                                               
+      background-color:                                                  
+      min-width: 160px;                                          
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);                    
+      z-index: 1;                                                                        
+    }
+
+    .menu-lien {
+      padding: 12px 16px;                                   
+      display: block;                                
+      text-decoration: none;                                         
+      color:                                   
+    }
+
+    .menu-lien:hover {
+      background-color:                                                   
+    }
+
+    .menu:hover .menu-deroulant {
+      display: block;                                                     
+    }
+
+    .icone {
+      margin-right: 8px;                                            
+    }
+  </style>
+</head>
+<body>
+  <div class="menu">
+    <button class="menu-bouton"><i class="fas fa-bars icone"></i> Menu</button>
+    <div class="menu-deroulant">
+      <a href="#" class="menu-lien"><i class="fas fa-home icone"></i> lien</a>
+      <a href="                                                                    
+      <a href="#" class="menu-lien"><i class="fas fa-envelope icone"></i> 675065754</a>
+    </div>
+  </div>
+</body>
+</html>
+
